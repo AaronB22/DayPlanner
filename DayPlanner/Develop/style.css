@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1;
   margin: 0px;
-  padding: 0px;
+  
 }
 .customBorder{
   border-right: 5px dashed black;
@@ -11,10 +11,10 @@ body {
   margin: 0px;
   
 }
-.Reset{
-  padding: 0px;
-  margin: 0px;
+.customButtonImage{
+  background-image: url("");
 }
+
 
 textarea{
   background: transparent;
