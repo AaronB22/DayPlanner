@@ -11,10 +11,12 @@ body {
   margin: 0px;
   
 }
-.customButtonImage{
-  background-image: url("");
+.customGreenBackground{
+  background-color: #28a745;
 }
-
+.customInput{
+  font-size: 60px;
+}
 
 textarea{
   background: transparent;
