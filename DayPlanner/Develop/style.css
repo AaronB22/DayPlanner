@@ -2,10 +2,18 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin: 0px;
+  padding: 0px;
 }
 .customBorder{
   border-right: 5px dashed black;
   border-top: 5px dashed black;
+  margin: 0px;
+  
+}
+.Reset{
+  padding: 0px;
+  margin: 0px;
 }
 
 textarea{
