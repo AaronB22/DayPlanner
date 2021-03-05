@@ -3,6 +3,10 @@ body {
   font-size: 16px;
   line-height: 1;
 }
+.customBorder{
+  border-right: 5px dashed black;
+  border-top: 5px dashed black;
+}
 
 textarea{
   background: transparent;
