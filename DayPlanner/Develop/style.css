@@ -12,8 +12,12 @@ body {
   
 }
 
+
 .customGreenBackground{
   background-color: #28a745;
+}
+.customBorderBottom{
+  border-bottom: 5px dashed black;
 }
 .customInput{
   font-size: 60px;
