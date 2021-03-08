@@ -5,7 +5,7 @@ $('#date').text(date.format("MMM Do, YYYY"));
 // $('').text(nonFormatHour.format("LT"));
 // let hour1=moment(nonFormatHour).format("H")
 // let hour =Math.floor(hour1)
- let hour=18
+ let hour=13
 //deubber tool. Too use commet out JS4-7 and unncommet out js9 
 
 const buttonPress0 = document.querySelector(".sb0")
@@ -96,7 +96,6 @@ inputArray[5].value=localStorage.getItem("storage14")
 inputArray[6].value=localStorage.getItem("storage15")
 inputArray[7].value=localStorage.getItem("storage16")
 inputArray[8].value=localStorage.getItem("storage17")
-
 
 function funBtn0(){
 let nineText=inputArray[0].value
