@@ -1,11 +1,12 @@
 let date =moment();
 $('#date').text(date.format("MMM Do, YYYY"));
 
-// let nonFormatHour =moment();
-// $('').text(nonFormatHour.format("LT"));
-// let hour1=moment(nonFormatHour).format("H")
-// let hour =Math.floor(hour1)
- let hour=13
+let nonFormatHour =moment();
+$('').text(nonFormatHour.format("LT"));
+let nonRoundedHour=moment(nonFormatHour).format("H")
+let hour =Math.floor(nonRoundedHour)
+
+//  let hour=13
 //deubber tool. Too use commet out JS4-7 and unncommet out js9 
 
 const buttonPress0 = document.querySelector(".sb0")
@@ -32,7 +33,7 @@ const inputArray= [nineBox,tenBox,elevenBox,twelveBox,oneBox,twoBox,threeBox,fou
 
 console.log(hour)
 if(hour>9){
-inputArray[0].style.backgroundColor="grey"
+inputArray[0].style.backgroundColor="grey";
 }
 if (hour===9){
     inputArray[0].style.backgroundColor="red"
