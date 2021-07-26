@@ -8,7 +8,7 @@ technologies used:
   -Javascript
   -moment.js
   
-The user can plan out thier work day. For each work hour there is an input where the user can type in what they want to plan out for that hour. Once saved the content gets saved into local storage. Hours that have pasted are colored in grey, 
+The user can plan out thier work day. For each work hour there is an input where the user can type in what they want to plan out for that hour. Once saved the content gets saved into local storage. Hours that have pasted are colored in grey. 
 
 
 
